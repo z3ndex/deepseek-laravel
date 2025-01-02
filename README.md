@@ -66,9 +66,7 @@ print_r("deepseek API response : " . $response);
 
 ## Testing
 
-```bash
-composer test
-```
+Tests will come soon
 
 ## Contributors ✨
 
