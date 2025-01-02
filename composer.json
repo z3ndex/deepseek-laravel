@@ -1,0 +1,73 @@
+{
+    "name": "deepseek-php/deepseek-laravel",
+    "description": "A seamless Laravel integration for the Deepseek PHP client, enabling effortless interaction with the Deepseek API in your Laravel applications.",
+    "keywords": [
+        "deepseek-php",
+        "deepseek-laravel",
+        "deepseek-api",
+        "laravel-ai",
+        "laravel-deepseek",
+        "deepseek-package",
+        "php-deepseek",
+        "deepseek-integration",
+        "deepseek-integration",
+        "openai"
+    ],
+    "homepage": "https://github.com/deepseek-php/deepseek-laravel",
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "deepseek-php",
+            "email": "omaralwi2010@gmail.com",
+            "role": "Owner"
+        },
+        {
+            "name": "Omar Alalwi",
+            "email": "omaralwi2010@gmail.com",
+            "role": "creator"
+        }
+    ],
+    "require": {
+        "php": "^8.1.0",
+        "deepseek-php/deepseek-php-client": "^1.0",
+        "illuminate/support": "^10.0|^11.0",
+        "nyholm/psr7": "^1.8",
+        "symfony/http-client": "^7.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0",
+        "phpunit/phpunit": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeepseekPhp\\DeepseekLaravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DeepseekPhp\\DeepseekLaravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DeepseekPhp\\DeepseekLaravel\\DeepseekLaravelServiceProvider"
+            ],
+            "aliases": {
+                "DeepseekLaravel": "DeepseekPhp\\DeepseekLaravel\\DeepseekLaravelFacade"
+            }
+        }
+    }
+}
