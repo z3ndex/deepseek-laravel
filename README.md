@@ -41,7 +41,7 @@ DEEPSEEK_API_KEY="your_api_key"
 use DeepseekClient;
 
 $deepseek = app(DeepseekClient::class);
-$response = $deepseek->query('Hello deepseek, how are you Today ^_^ ?')->run();
+$response = $deepseek->query('Hello deepseek, I am Laravel Framework , how are you Today ^_^ ?')->run();
 print_r("deepseek API response : " . $response);
 ```
 
