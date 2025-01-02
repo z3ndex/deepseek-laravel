@@ -10,7 +10,7 @@ Laravel wrapper for **[Deepseek PHP client](https://github.com/deepseek-php/deep
   - [Basic Usage](#basic-usage)
   - [Advanced Usage](#advanced-usage)
 - [Testing](#testing)
-- [Contributors ✨](#contributors-✨)
+- [Contributors](#contributors-)
 - [Changelog](#changelog)
 - [Security](#security)
 - [License](#license)
