@@ -27,7 +27,7 @@ return [
     | connect to a custom endpoint.
     |
     */
-    'base_url' => env('DEEPSEEK_API_BASE_URL', DefaultConfigs::BASE_URL),
+    'base_url' => env('DEEPSEEK_API_BASE_URL', (string) DefaultConfigs::BASE_URL->value),
 
     /*
     |--------------------------------------------------------------------------
@@ -40,6 +40,6 @@ return [
     | You can override it in the environment file by setting DEEPSEEK_API_TIMEOUT.
     |
     */
-    'timeout' => env('DEEPSEEK_API_TIMEOUT', DefaultConfigs::TIMEOUT),
+    'timeout' => env('DEEPSEEK_API_TIMEOUT', (int) DefaultConfigs::TIMEOUT->value),
 
 ];
