@@ -20,7 +20,7 @@
     "homepage": "https://github.com/deepseek-php/deepseek-laravel",
     "license": "MIT",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.0.0,
     "authors": [
         {
             "name": "deepseek-php",

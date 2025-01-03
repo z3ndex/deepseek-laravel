@@ -4,6 +4,7 @@ namespace DeepseekPhp\DeepseekLaravel;
 
 use DeepseekPhp\DeepseekClient;
 use Illuminate\Support\ServiceProvider;
+use DeepseekPhp\DeepseekLaravel\Exceptions\ApiKeyIsMissing;
 
 class DeepseekLaravelServiceProvider extends ServiceProvider
 {
@@ -28,6 +29,10 @@ class DeepseekLaravelServiceProvider extends ServiceProvider
             $apiKey = config('deepseek.api_key');
             $baseUrl = config('deepseek.base_url');
             $timeout = config('deepseek.timeout');
+
+            if (! is_string($apiKey)) {
+                throw ApiKeyIsMissing::create();
+            }
 
             return DeepseekClient::build($apiKey, $baseUrl, $timeout);
         });
