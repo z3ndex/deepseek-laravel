@@ -59,6 +59,7 @@ $response = $deepseek
     ->query('Hello deepseek, how are you ?', 'system')
     ->query('Hello deepseek, my name is PHP ', 'user')
     ->withModel("deepseek-chat")
+    ->setTemperature(1.5)
     ->run();
 
 print_r("deepseek API response : " . $response);
