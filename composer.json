@@ -5,6 +5,8 @@
         "deepseek-php",
         "deepseek-laravel",
         "deepseek-coder",
+        "DeepSeek-R1",
+        "DeepSeek-R1-Zero",
         "deepseek-chat",
         "deepseek-math",
         "deepseek-php-client",
@@ -20,7 +22,7 @@
     "homepage": "https://github.com/deepseek-php/deepseek-laravel",
     "license": "MIT",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "deepseek-php",
@@ -35,7 +37,7 @@
     ],
     "require": {
         "php": "^8.1.0",
-        "deepseek-php/deepseek-php-client": "^1.0.1",
+        "deepseek-php/deepseek-php-client": "^1.0.2",
         "illuminate/support": "^9.0|^10.0|^11.0",
         "nyholm/psr7": "^1.8",
         "symfony/http-client": "^7.2"
