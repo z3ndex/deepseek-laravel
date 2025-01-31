@@ -1,6 +1,6 @@
 <?php
 
-use DeepseekPhp\Enums\Configs\DefaultConfigs;
+use DeepSeek\Enums\Configs\DefaultConfigs;
 
 return [
 

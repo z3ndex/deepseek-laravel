@@ -3,7 +3,7 @@
 namespace Feature;
 
 use DeepseekClient;
-use DeepseekPhp\Enums\Configs\DefaultConfigs;
+use DeepSeek\Enums\Configs\DefaultConfigs;
 use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\TestCase;
 

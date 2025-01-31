@@ -37,7 +37,7 @@
     ],
     "require": {
         "php": "^8.1.0",
-        "deepseek-php/deepseek-php-client": "^1.0.2",
+        "deepseek-php/deepseek-php-client": "^2.0",
         "illuminate/support": "^9.0|^10.0|^11.0",
         "nyholm/psr7": "^1.8",
         "symfony/http-client": "^7.2"
@@ -48,12 +48,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DeepseekPhp\\DeepseekLaravel\\": "src"
+            "DeepSeek\\DeepseekLaravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DeepseekPhp\\DeepseekLaravel\\Tests\\": "tests"
+            "DeepSeek\\DeepseekLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -69,10 +69,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DeepseekPhp\\DeepseekLaravel\\DeepseekLaravelServiceProvider"
+                "DeepSeek\\DeepseekLaravel\\DeepseekLaravelServiceProvider"
             ],
             "aliases": {
-                "DeepseekLaravel": "DeepseekPhp\\DeepseekLaravel\\DeepseekLaravelFacade"
+                "DeepseekLaravel": "DeepSeek\\DeepseekLaravel\\DeepseekLaravelFacade"
             }
         }
     }
