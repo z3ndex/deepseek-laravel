@@ -2,7 +2,7 @@
 
 namespace DeepSeek\DeepseekLaravel;
 
-use DeepSeek\DeepseekClient;
+use DeepSeek\DeepSeekClient;
 use Illuminate\Support\ServiceProvider;
 use DeepSeek\DeepseekLaravel\Exceptions\ApiKeyIsMissing;
 
