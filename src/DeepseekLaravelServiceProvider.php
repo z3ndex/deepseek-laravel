@@ -1,10 +1,10 @@
 <?php
 
-namespace DeepseekPhp\DeepseekLaravel;
+namespace DeepSeek\DeepseekLaravel;
 
-use DeepseekPhp\DeepseekClient;
+use DeepSeek\DeepseekClient;
 use Illuminate\Support\ServiceProvider;
-use DeepseekPhp\DeepseekLaravel\Exceptions\ApiKeyIsMissing;
+use DeepSeek\DeepseekLaravel\Exceptions\ApiKeyIsMissing;
 
 class DeepseekLaravelServiceProvider extends ServiceProvider
 {

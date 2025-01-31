@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DeepseekPhp\DeepseekLaravel\Exceptions;
+namespace DeepSeek\DeepseekLaravel\Exceptions;
 
 use InvalidArgumentException;
 

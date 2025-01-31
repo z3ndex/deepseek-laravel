@@ -1,6 +1,6 @@
 <?php
 
-namespace DeepseekPhp\DeepseekLaravel;
+namespace DeepSeek\DeepseekLaravel;
 
 use Illuminate\Support\Facades\Facade;
 
