@@ -2,7 +2,7 @@
 
 namespace Feature;
 
-use DeepseekClient;
+use DeepSeekClient;
 use DeepSeek\Enums\Configs\DefaultConfigs;
 use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\TestCase;

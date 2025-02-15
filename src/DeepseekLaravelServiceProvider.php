@@ -25,7 +25,7 @@ class DeepseekLaravelServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__.'/../config/deepseek.php', 'deepseek');
 
-        $this->app->singleton('DeepseekClient', function () {
+        $this->app->singleton(DeepSeekClient::class, function () {
             $apiKey = config('deepseek.api_key');
             $baseUrl = config('deepseek.base_url');
             $timeout = config('deepseek.timeout');
@@ -34,7 +34,7 @@ class DeepseekLaravelServiceProvider extends ServiceProvider
                 throw ApiKeyIsMissing::create();
             }
 
-            return DeepseekClient::build($apiKey, $baseUrl, $timeout);
+            return DeepSeekClient::build($apiKey, $baseUrl, $timeout);
         });
     }
 }

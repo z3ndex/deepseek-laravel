@@ -38,9 +38,9 @@ DEEPSEEK_API_KEY="your_api_key"
 ### Basic Usage
 
 ```php
-use DeepseekClient;
+use DeepSeekClient;
 
-$deepseek = app(DeepseekClient::class);
+$deepseek = app(DeepSeekClient::class);
 $response = $deepseek->query('Hello deepseek, I am Laravel Framework , how are you Today ^_^ ?')->run();
 print_r("deepseek API response : " . $response);
 ```
@@ -50,9 +50,9 @@ print_r("deepseek API response : " . $response);
 ### Advanced Usage
 
 ```php
-use DeepseekClient;
+use DeepSeekClient;
 
-$deepseek = app(DeepseekClient::class);
+$deepseek = app(DeepSeekClient::class);
 
 // Another way, with customization
 $response = $deepseek
