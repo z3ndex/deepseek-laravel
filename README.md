@@ -94,6 +94,17 @@ Thanks to these wonderful people for contributing to this project! 💖
       💻 Contributor
     </td>
     <!-- Contributors -->
+    </td>
+      <td align="center">
+      <a href="https://github.com/200-0K">
+        <img src="https://avatars.githubusercontent.com/u/38166228?v=4" width="100px;" alt="Faisal"/>
+        <br />
+        <sub><b> Faisal </b></sub>
+      </a>
+      <br />
+      💻 Contributor
+    </td>
+    <!-- Contributors -->
   </tr>
 </table>
 
