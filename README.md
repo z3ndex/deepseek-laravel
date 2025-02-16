@@ -86,7 +86,7 @@ Thanks to these wonderful people for contributing to this project! 💖
     </td>
       <td align="center">
       <a href="https://github.com/A909M">
-        <img src="https://avatars.githubusercontent.com/u/119125167?v=4" width="100px;" alt="Asim Al-Wasai"/>
+        <img src="https://avatars.githubusercontent.com/u/119125167?v=4" width="50px;" alt="Asim Al-Wasai"/>
         <br />
         <sub><b> Assem Alwaseai </b></sub>
       </a>
@@ -97,7 +97,7 @@ Thanks to these wonderful people for contributing to this project! 💖
     </td>
       <td align="center">
       <a href="https://github.com/200-0K">
-        <img src="https://avatars.githubusercontent.com/u/38166228?v=4" width="100px;" alt="Faisal"/>
+        <img src="https://avatars.githubusercontent.com/u/38166228?v=4" width="50px;" alt="Faisal"/>
         <br />
         <sub><b> Faisal </b></sub>
       </a>
