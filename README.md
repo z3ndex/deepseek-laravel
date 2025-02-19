@@ -114,6 +114,27 @@ Want to contribute? Check out the [contributing guidelines](./CONTRIBUTING.md) a
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
+---
+<div>
+
+# 🐘✨ **DeepSeek PHP Community** ✨🐘
+
+Click the button bellow or [join here](https://t.me/deepseek_php_community) to be part of our growing community!
+
+[![Join Telegram](https://img.shields.io/badge/Join-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/deepseek_php_community)
+
+
+### **Channel Structure** 🏗️
+- 🗨️ **General** - Daily chatter
+- 💡 **Ideas & Suggestions** - Shape the community's future
+- 📢 **Announcements & News** - Official updates & news
+- 🚀 **Releases & Updates** - Version tracking & migration support
+- 🐞 **Issues & Bug Reports** - Collective problem-solving
+- 🤝 **Pull Requests** - Code collaboration & reviews
+
+</div>
+
+---
 ### Security
 
 If you discover any security-related issues, please email [omaralwi2010@gmail.com](mailto:omaralwi2010@gmail.com) instead of using the issue tracker.
